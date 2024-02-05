@@ -324,3 +324,9 @@ Any comments or suggestions are gladly welcomed!
 [13]: https://medium.com/elemental-elixir/processing-very-large-text-files-in-elixir-b631792eed59
 [14]: https://github.com/gunnarmorling/1brc
 [15]: https://github.com/mneumann/1brc-elixir
+[16]: https://hexdocs.pm/gen_state_machine/GenStateMachine.html
+[17]: https://blog.appsignal.com/2020/07/14/building-state-machines-in-elixir-with-ecto.html
+[18]: https://habr.com/ru/articles/511780/
+[19]: https://github.com/subvisual/fsmx
+[20]: https://github.com/joaomdmoura/machinery
+[21]: https://github.com/ericentin/gen_state_machine
