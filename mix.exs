@@ -25,6 +25,7 @@ defmodule DogApi.MixProject do
 
   defp deps do
     [
+      {:benchee, "~> 1.3"},
       {:ex_unit_notifier, "~> 1.3", only: [:test]},
       {:httpoison, "~> 2.2"},
       {:jason, "~> 1.4"},
