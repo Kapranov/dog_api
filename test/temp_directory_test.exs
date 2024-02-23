@@ -20,9 +20,8 @@ defmodule TempDirectoryTest do
       ]},
       {:source, ~c"/home/kapranov/Projects/dog_api/lib/dog_api/retry.ex"}] =
         DogAPI.Retry.__info__(:compile)
-    assert [{:next_attempt, 2}] = DogAPI.Retry.__info__(:functions)
+    assert [{:handle_response, 1}, {:next_attempt, 2}] = DogAPI.Retry.__info__(:functions)
     assert [{:autoretry, 1}, {:autoretry, 2}] = DogAPI.Retry.__info__(:macros)
-    assert <<151, 32, 45, 67, 189, 62, 118, 60, 105, 71, 104, 34, 114, 87, 84, 205>> = DogAPI.Retry.__info__(:md5)
     assert DogAPI.Retry = DogAPI.Retry.__info__(:module)
     assert DogAPI.Retry.__info__(:struct) == nil
   end

@@ -26,10 +26,15 @@ defmodule DogApi.MixProject do
   defp deps do
     [
       {:benchee, "~> 1.3"},
+      {:erlport, "~> 0.11.0"},
       {:ex_unit_notifier, "~> 1.3", only: [:test]},
+      {:gen_stage, "~> 1.2"},
       {:httpoison, "~> 2.2"},
       {:jason, "~> 1.4"},
-      {:multipart, "~> 0.4.0"}
+      {:multipart, "~> 0.4.0"},
+      {:nimble_csv, "~> 1.2"},
+      {:opentelemetry, "~> 1.3"},
+      {:opentelemetry_exporter, "~> 1.6"}
     ]
   end
 
