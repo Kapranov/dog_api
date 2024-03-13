@@ -1,4 +1,4 @@
-defmodule DogApi.MixProject do
+defmodule DogAPI.MixProject do
   use Mix.Project
 
   @version "0.1.0"
@@ -19,13 +19,14 @@ defmodule DogApi.MixProject do
   def application do
     [
       extra_applications: [:logger, :ex_unit, :inets, :runtime_tools],
-      mod: {DogApi.Application, []}
+      mod: {DogAPI.Application, []}
     ]
   end
 
   defp deps do
     [
       {:benchee, "~> 1.3"},
+      {:cabbage, "~> 0.4.1"},
       {:erlport, "~> 0.11.0"},
       {:ex_unit_notifier, "~> 1.3", only: [:test]},
       {:gen_stage, "~> 1.2"},
@@ -34,7 +35,8 @@ defmodule DogApi.MixProject do
       {:multipart, "~> 0.4.0"},
       {:nimble_csv, "~> 1.2"},
       {:opentelemetry, "~> 1.3"},
-      {:opentelemetry_exporter, "~> 1.6"}
+      {:opentelemetry_exporter, "~> 1.6"},
+      {:spark, "~> 2.0"}
     ]
   end
 

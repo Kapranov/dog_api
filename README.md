@@ -353,3 +353,21 @@ Any comments or suggestions are gladly welcomed!
 [40]: https://www.poeticoding.com/build-a-simple-persistent-key-value-store-in-elixir-using-logs-part-2/
 [41]: https://www.poeticoding.com/download-large-files-with-httpoison-async-requests/
 [42]: https://thiagoramos.me/articles/using-genstage-to-consume-twitter-api
+[43]: https://github.com/cabbage-ex/cabbage
+[44]: https://github.com/cabbage-ex/cabbage/tree/master/test
+[45]: https://github.com/meadery/white-bread
+[46]: https://github.com/HashNuke/hound
+[47]: https://github.com/Ajwah/ex_cucumber
+[48]: https://medium.com/hackernoon/tips-and-tricks-for-writing-elixir-bdd-gherkin-tests-with-white-bread-4f9894e9ea18
+[49]: https://github.com/ash-project/spark
+[50]: https://github.com/zachdaniel/spark_example
+[51]: https://hexdocs.pm/elixir/domain-specific-languages.html
+[52]: https://elixirforum.com/t/best-resource-to-learn-dsl/45104
+[53]: https://coderlessons.com/articles/programmirovanie/ecto-querying-dsl-ot-elixir-ne-tolko-osnovy
+[54]: https://coderlessons.com/articles/programmirovanie/ponimanie-ekto-zaprosov-elixir-dsl-osnovy
+[55]: https://www.youtube.com/watch?v=CjeJxHFEwZo
+[56]: https://www.youtube.com/watch?v=b-49Uf1pHjI
+[57]: https://stackoverflow.com/questions/41886503/creating-a-dsl-using-nested-elixir-macros-that-can-change-block-context
+[58]:
+[59]:
+[60]: https://github.com/zachdaniel/aoc

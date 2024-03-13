@@ -1,4 +1,4 @@
-defmodule DogApi.Application do
+defmodule DogAPI.Application do
   @moduledoc false
 
   use Application

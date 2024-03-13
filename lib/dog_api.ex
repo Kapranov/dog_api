@@ -1,4 +1,4 @@
-defmodule DogApi do
+defmodule DogAPI do
   @moduledoc """
   Documentation for `DogApi`.
   """

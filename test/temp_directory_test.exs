@@ -12,7 +12,7 @@ defmodule TempDirectoryTest do
   test "get informations of module" do
     assert [vsn: [_num]] = DogAPI.Retry.__info__(:attributes)
     assert [
-      {:version, ~c"8.4.1"},
+      {:version, ~c"8.4.2"},
       {:options, [
         :no_spawn_compiler_process,
         :from_core, :no_core_prepare,
