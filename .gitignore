@@ -1,0 +1,10 @@
+/.fetch
+/_build/
+/cover/
+/deps/
+/doc/
+/tmp/
+
+*.ez
+dog_api-*.tar
+erl_crash.dump

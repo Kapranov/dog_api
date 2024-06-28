@@ -26,7 +26,9 @@ defmodule DogAPI.MixProject do
   defp deps do
     [
       {:benchee, "~> 1.3"},
+      {:broadway, "~> 1.0"},
       {:cabbage, "~> 0.4.1"},
+      {:ecto_sql, "~> 3.11"},
       {:erlport, "~> 0.11.0"},
       {:ex_unit_notifier, "~> 1.3", only: [:test]},
       {:gen_stage, "~> 1.2"},
@@ -36,7 +38,9 @@ defmodule DogAPI.MixProject do
       {:nimble_csv, "~> 1.2"},
       {:opentelemetry, "~> 1.3"},
       {:opentelemetry_exporter, "~> 1.6"},
-      {:spark, "~> 2.0"}
+      {:postgrex, "~> 0.17"},
+      {:spark, "~> 2.0"},
+      {:tesla, "~> 1.9"}
     ]
   end
 
@@ -45,7 +49,11 @@ defmodule DogAPI.MixProject do
 
   defp aliases do
     [
-      tag: &tag_release/1
+      tag: &tag_release/1,
+      setup: ["deps.get", "ecto.setup"],
+      "ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
+      "ecto.reset": ["ecto.drop", "ecto.setup", "run priv/repo/seeds.exs"],
+      test: ["ecto.create --quiet", "ecto.migrate --quiet", "test"]
     ]
   end
 

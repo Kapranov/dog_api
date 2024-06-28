@@ -368,6 +368,9 @@ Any comments or suggestions are gladly welcomed!
 [55]: https://www.youtube.com/watch?v=CjeJxHFEwZo
 [56]: https://www.youtube.com/watch?v=b-49Uf1pHjI
 [57]: https://stackoverflow.com/questions/41886503/creating-a-dsl-using-nested-elixir-macros-that-can-change-block-context
-[58]:
-[59]:
-[60]: https://github.com/zachdaniel/aoc
+[58]: https://revelry.co/insights/development/elixir/elixir-data-pipelines/
+[59]: https://blog.appsignal.com/2019/12/12/how-to-use-broadway-in-your-elixir-application.html
+[60]: https://github.com/akoutmos/world_temp
+[61]: https://github.com/zachdaniel/aoc
+[62]: https://blog.appsignal.com/2024/03/19/direct-file-uploads-to-amazon-s3-with-phoenix-liveview.html
+[63]: https://gist.github.com/plicjo/5e5ced381f2b71d69d98b3e48885aacf
